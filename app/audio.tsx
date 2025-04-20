@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import nextConfig from "@/next.config";
 
 const BASE_PATH = nextConfig.basePath || "";

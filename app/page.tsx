@@ -42,7 +42,6 @@ export default function Home() {
     const [fadeInContent, setFadeInContent] = useState<boolean>(false);
     const [value, setValue] = useState<string>("");
     const [open, setOpen] = useState(false);
-    const [inter, setinter] = useState(false);
 
     const BASE_PATH = nextConfig.basePath || "";
     const ispc = useragents();
